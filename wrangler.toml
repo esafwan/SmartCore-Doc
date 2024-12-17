@@ -3,4 +3,4 @@ command = "bun install && bun run build"
 publish = "dist"
 
 [build.environment]
-NODE_VERSION = "18" 
+NODE_VERSION = "20.17.0"
