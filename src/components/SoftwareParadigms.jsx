@@ -109,12 +109,10 @@ const SoftwareParadigms = () => {
           </div>
         </div>
 
-        <div className="border rounded-lg shadow-md p-4 bg-white">
+        <div className="border rounded-lg shadow-md p-4 bg-white pb-16 mb-16">
           {activeTab === 'what' && (
             <>
-              <Documentation />
-              <ParadigmDiagram sections={sectionsData.traditional} title="Traditional Software Architecture" />
-              <ParadigmDiagram sections={sectionsData.aiNative} title="AI-Native Software Architecture" />
+              <Documentation />              
             </>
           )}
           {activeTab === 'ai-native' && (
