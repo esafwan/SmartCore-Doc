@@ -80,9 +80,17 @@ const SoftwareParadigms = () => {
 
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">SmartCore: Dynamic Backends and Software Logic Powered by LLMs</h1>
-          <p className="text-xl text-gray-600">
+          <p className="text-xl text-gray-600 mb-4">
             Software architecture with adaptable, LLM-driven systems
           </p>
+          <div className="border-t border-gray-200 pt-3 mt-4">
+            <p className="text-md font-medium text-gray-700">
+              Research by <span className="font-semibold">Safwan Erooth</span>
+            </p>
+            <p className="text-sm text-gray-600">
+              Founder & Lead AI Researcher - Tridz Technologies
+            </p>
+          </div>
         </div>
 
         <div className="mb-6">
